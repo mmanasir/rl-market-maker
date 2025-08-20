@@ -1,0 +1,13 @@
+data:
+  ticker: "NVDA"
+  interval: "1m"
+  period: "5d" 
+  output_path: "data.csv"
+
+simulation:
+  base_edge: 0.1
+  vol_multiplier: 0.5
+  inventory_limit: 10
+  vol_window: 20
+  latency: 1
+  fee_per_trade: 0.01
